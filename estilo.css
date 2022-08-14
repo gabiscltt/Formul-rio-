@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+
+body{
+    background-image:url(imagens/fundo1.png), url(imagens/fundo2.png), url(imagens/fundo1.png), url(imagens/fundo3.png), url(imagens/fundo4.png), url(imagens/fundo3.png);
+    background-size: 115px;
+    background-position-y: 0px, 400px, 780px, 0px, 390px, 700px;
+    background-position-x:left, left, left, right, right, right;
+    background-repeat:no-repeat
+
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Mukta', sans-serif;
+    padding:30px;
+    line-height:5px;
+}
+.titulo{
+    color:#CB6CE6;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.titulo2{
+    font-weight:bold;
+    font-size: 26px;
+    margin-top: 45px;
+    color:rgb(66, 66, 66)
+}
+.titulo3{
+    font-size: 20px;
+    color:rgb(139, 139, 139);
+    margin-bottom: 23px;
+    margin-top: 23px;
+}
+.nome, .email{
+    display:block;
+    width:95%;
+    height: 45px;
+    margin-bottom: 13px;
+    border: 2px solid #CB6CE6ed;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.342);
+}
+.numero{
+    display:inline-block;
+    height: 45px;
+    width: 47%;    
+    margin-bottom: 13px;
+    border: 2px solid #CB6CE6;
+    border-radius: 5px;
+    background-image: url(imagens/tel.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 160px 10px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.342);
+}
+.idade{
+    height: 45px;
+    width: 45%;
+    margin-bottom: 13px;
+    border: 2px solid #CB6CE6;
+    border-radius: 5px;
+    background-image: url(imagens/idade.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 145px 10px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.342);
+}
+.nome{
+    background-image: url(imagens/nome.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 350px 10px;
+}
+.email{
+    background-image: url(imagens/email.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 350px 10px;
+}
+.nome:hover, .idade:hover, .email:hover, .numero:hover, .ml:hover, .perfume:hover{
+    border-color:#ae5fc4
+}
+.ml, .perfumes{
+    margin-right: 8px
+}
+.botao{
+    display: block;
+    margin-top:45px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #d27ee9;
+    border-color: #c05edb;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    padding: 12px
+}
+.botao:hover{
+    background-color: #ba66d1;
+    border-color: #ab4fc5;
+}
+.botao:active{
+    background-color: #9c53b1;
+    border-color: #8a3da0;
+}

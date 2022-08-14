@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <div class="container">
+        <form>        
+            
+            <p class="titulo">Solicite uma amostra</h1>
+            <p class="titulo2">Dados pessoais</p>
+            <p class="titulo3">Digite seus dados</p>
+            <input required type="text" placeholder="Nome completo" class="nome">
+            <input required type="email" placeholder="Seu e-mail" class="email">
+            <input required type="tel" placeholder="Seu número" class="numero">
+            <input required type="number" placeholder="Sua idade" class="idade">
+        
+        
+            <p class="titulo2">Tamanho da amostra</p>
+            <p class="titulo3">Selecione o tamanho desejado</p>
+            <img src="imagens/1ml.png" alt="1ml" width="75px"><input required type="radio" name="tamanho" value="1ml" class="ml">
+            <img src="imagens/2ml.png" alt="2ml" width="75px"><label><input required type="radio" name="tamanho" value="2ml" class="ml">
+            <img src="imagens/6ml.png" alt="6ml" width="75px"><input required type="radio" name="tamanho" value="6ml" class="ml">
+            <img src="imagens/10ml.png" alt="10ml" width="75px"><input required type="radio" name="tamanho" value="10ml" class="ml">
+        
+        
+            <p class="titulo2">Perfume de interesse</p>
+            <p class="titulo3">Selecione o perfume desejado</p>
+            <img src="imagens/goodg.png" alt="perfume Good Girl" width="75px"><input required class="perfumes" type="radio" name="tipodeperfume" value="GoodGirl">
+            <img src="imagens/212.png" alt="perfume 212" width="75px"><input required class="perfumes" type="radio" name="tipodeperfume" value="212Vip">
+            <img src="imagens/sauvage.png" alt="perfume Sauvage" width="75px"><input required class="perfumes" type="radio" name="tipodeperfume" value="Sauvage">
+            <img src="imagens/1million.png" alt="perfume 1 Million" width="75px"><input required class="perfumes" type="radio" name="tipodeperfume" value="1Million">
+
+            <input required type="button" value="Enviar" class="botao">
+        </form>
+        </div>
+
+    </body>
+
+</html>

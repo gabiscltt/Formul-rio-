@@ -14,8 +14,10 @@ body{
     justify-content:center;
     align-items:center;
     font-family: 'Mukta', sans-serif;
-    padding:30px;
+    margin-right:105px;
+    margin-left: 110px;
     line-height:5px;
+    padding-bottom: 20px;   
 }
 .titulo{
     color:#CB6CE6;
@@ -54,7 +56,7 @@ body{
     background-image: url(imagens/tel.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: 160px 10px;
+    background-position:  89% 10px;
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.342);
 }
 .idade{
@@ -66,20 +68,20 @@ body{
     background-image: url(imagens/idade.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: 145px 10px;
+    background-position: 88% 10px;
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.342);
 }
 .nome{
     background-image: url(imagens/nome.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: 350px 10px;
+    background-position: 95% 10px;
 }
 .email{
     background-image: url(imagens/email.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: 350px 10px;
+    background-position: 95% 10px;
 }
 .nome:hover, .idade:hover, .email:hover, .numero:hover, .ml:hover, .perfume:hover{
     border-color:#ae5fc4
